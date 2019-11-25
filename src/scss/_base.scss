@@ -4,12 +4,14 @@ body {
 }
 
 .container-fluid {
+
 	width: 100%;
 	margin: 0;
 	padding: 0;
 }
 
-ul {height: 70px;
+ul {
+	height: 70px;
 	width: 100%;
 	list-style-type: none;
 	margin: 0;
@@ -17,10 +19,13 @@ ul {height: 70px;
 	display: flex;
 	justify-content: space-between;
 	background-color: white;
-
+	text-decoration: none;
 }
 
 
+a {
+	text-decoration: none;
+}
 
 li a {
 	width: 100%;
@@ -34,6 +39,7 @@ li a {
 }
 
 .nav {
+	z-index: 1;
 	width: 100%;
 	display: flex;
 	padding-top: 10px;
@@ -48,7 +54,7 @@ li a:hover {
 }
 
 .logo {
-	
+
 	height: 115px;
 	width: 70px;
 	padding-bottom: 50px;
@@ -92,11 +98,10 @@ li a:hover {
 	text-align: center;
 }
 
-/*knopka*/
+
 
 a.boot {
-	-webkit-transform: translate3D(0, 0, 0);
-	-webkit-backface-visibility: hidden;
+
 	color: #cccccc;
 	padding: 10px 0px;
 	letter-spacing: 1px;
@@ -164,10 +169,125 @@ a.boot:focus:before {
 	transform: translate(115%, 0);
 }
 
+.backimg {
+	background: url('../img/kuk.jpg') no-repeat;
+	background-size: cover;
+	padding-top: 700px;
+
+
+	.insert {
+		border: solid 1px rgb(141, 140, 140);
+		outline: solid 10px rgb(51, 51, 63);
+		background-color: rgb(51, 51, 63);
+	}
+}
+
+.justtry {
+	display: flex;
+	padding-left: 250px;
+	padding-top: 100px;
+	flex-direction: space-between;
+}
+
+.forh {
+	font-size: 30px;
+	color: rgb(123, 31, 162)
+}
+
+.textp {
+	padding-top: 30px;
+	color: #a7a7a7;
+}
+
+.textforlogo {
+	padding-left: 80px;
+	padding-right: 200px;
+}
+
+.kach {
+	display: flex;
+
+	flex-direction: space-between;
+}
+.firststar {font-size: 50px; 
+	padding-top: 50px;
+padding-left: 660px;}
+
+.kachestvo {font-weight: bold;
+	font-size: 14px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	color: black;
+}
+
+.forkach {
+	padding-top: 50px;
+	padding-right: 100px;
+	color: #a7a7a7;
+}
+
+.tastes {
+	display: flex;
+
+	flex-direction: space-between;
+}
+.sectstar {font-size: 50px; 
+	padding-top: 50px;
+padding-left: 660px;}
+
+.taste {font-weight: bold;
+	font-size: 14px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	color: black;
+}
+
+.fortaste {
+	padding-top: 50px;
+	padding-left: 35px;
+	padding-right: 100px;
+	color: #a7a7a7;
+}
+
+.gost {
+	display: flex;
+
+	flex-direction: space-between;
+}
+.thirdstar {font-size: 50px; 
+	padding-top: 50px;
+padding-left: 660px;}
+
+.igost {font-weight: bold;
+	font-size: 14px;
+	padding-bottom: 50px;
+	padding-left: 31px;
+	color: black;
+}
+
+.forgost {
+	padding-top: 50px;
+	padding-left: 35px;
+	padding-right: 100px;
+	color: #a7a7a7;
+}
+
+.bagrscr {
+	background: url('../img/backgr.jpg') no-repeat;
+	background-size: cover;
+	height: 120px;
+}
+.offer {text-align: center;
+padding-top: 30px;
+color: rgb(48, 63, 159);
+font-size: 30px;}
+.foroffer {text-align: center;
+color: black;
+font-size: 20px;}
 @media screen and (min-width: 1330px) {
 	.backimg {
-		width: 1903px;
-		height: 950px;
+		max-width: 100%;
+		height: 700px;
 	}
 }
 
@@ -177,8 +297,8 @@ a.boot:focus:before {
 		width: 750px;
 		height: 300px;
 		position: relative;
-		bottom: 650px;
-		left: 570px;
+		bottom: 520px;
+		left: 410px;
 		border: solid 1px rgb(141, 140, 140);
 		outline: solid 10px rgb(51, 51, 63);
 		background-color: rgb(51, 51, 63);
