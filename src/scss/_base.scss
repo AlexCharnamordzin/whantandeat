@@ -39,6 +39,7 @@ li a {
 }
 
 .nav {
+
 	z-index: 1;
 	width: 100%;
 	display: flex;
@@ -209,11 +210,15 @@ a.boot:focus:before {
 
 	flex-direction: space-between;
 }
-.firststar {font-size: 50px; 
-	padding-top: 50px;
-padding-left: 660px;}
 
-.kachestvo {font-weight: bold;
+.firststar {
+	font-size: 50px;
+	padding-top: 50px;
+	padding-left: 660px;
+}
+
+.kachestvo {
+	font-weight: bold;
 	font-size: 14px;
 	padding-bottom: 50px;
 	padding-left: 30px;
@@ -231,11 +236,15 @@ padding-left: 660px;}
 
 	flex-direction: space-between;
 }
-.sectstar {font-size: 50px; 
-	padding-top: 50px;
-padding-left: 660px;}
 
-.taste {font-weight: bold;
+.sectstar {
+	font-size: 50px;
+	padding-top: 50px;
+	padding-left: 660px;
+}
+
+.taste {
+	font-weight: bold;
 	font-size: 14px;
 	padding-bottom: 50px;
 	padding-left: 30px;
@@ -254,11 +263,15 @@ padding-left: 660px;}
 
 	flex-direction: space-between;
 }
-.thirdstar {font-size: 50px; 
-	padding-top: 50px;
-padding-left: 660px;}
 
-.igost {font-weight: bold;
+.thirdstar {
+	font-size: 50px;
+	padding-top: 50px;
+	padding-left: 660px;
+}
+
+.igost {
+	font-weight: bold;
 	font-size: 14px;
 	padding-bottom: 50px;
 	padding-left: 31px;
@@ -277,28 +290,153 @@ padding-left: 660px;}
 	background-size: cover;
 	height: 120px;
 }
-.offer {text-align: center;
-padding-top: 30px;
-color: rgb(48, 63, 159);
-font-size: 30px;}
-.foroffer {text-align: center;
-color: black;
-font-size: 20px;}
+
+.offer {
+	text-align: center;
+	padding-top: 30px;
+	color: rgb(48, 63, 159);
+	font-size: 30px;
+}
+
+.foroffer {
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+
+.face {
+	display: flex;
+	align-items: center;
+	flex-direction: space-between;
+}
+
+.vitpaloch {
+	padding-left: 550px;
+}
+
+.hochpal {
+	padding-top: 25px;
+}
+
+hr {
+	margin-top: 50px;
+	width: 30%;
+	border: none;
+	background-color: #f7b70b;
+	color: #f7b70b;
+	height: 2px;
+}
+
+.we {
+	padding-top: 23px;
+	text-align: center;
+	font-size: 21px;
+	color: rgb(26, 35, 126);
+	font-weight: bold;
+}
+
+
+.wall {
+	background: url('../img/wall.jpg') no-repeat;
+	background-size: cover;
+	height: 520px;
+	padding-top: 90px;
+}
+
+.ramka {
+	margin-top: 50px;
+	color: #f7b70b;
+	text-align: center;
+	width: 800px;
+	height: 120px;
+	border: 6px solid;
+	margin: auto;
+}
+
+.voprosu { font-size: 25px;
+	padding-top: 30px;
+	color: #6639b6;
+	font-weight: 500;
+	text-align: center;
+}
+
+.forphone { 	color: #f7b70b;
+	font-size: 70px;
+}
+
+.mailphone { 	color: #f7b70b;
+	font-size: 70px;
+}
+
+.mapphone { 	color: #f7b70b;
+	font-size: 70px;
+}
+
+.phonename {color: #a7a7a7;
+	font-size: 15px;
+}
+
+.emailname {color: #a7a7a7;
+	font-size: 15px;
+}
+
+.mapname {color: #a7a7a7;
+	font-size: 15px;
+}
+
+.phonenumber { color: rgb(255, 187, 0);
+	font-size: 13px;
+}
+
+.emailnumber {color: rgb(255, 187, 0);
+	font-size: 15px;
+}
+
+.mapnumber {color: rgb(255, 187, 0);
+	font-size: 15px;
+}
+
+.contacts {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: space-between;
+}
+
+.phone {text-align: center;
+	 padding-right: 100px;
+	padding-left: 550px;
+}
+
+.email { border-left: 2px solid  #f7b70b;;
+	border-right: 2px solid  #f7b70b;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+}
+
+.map {text-align: center;
+	padding-left: 100px;
+	width: 300px;
+}
+
 @media screen and (min-width: 1330px) {
 	.backimg {
-		max-width: 100%;
-		height: 700px;
+		background: url('../img/kuk.jpg') no-repeat;
+		background-size: cover;
+		padding-top: 1000px;
+		min-width: 100%;
 	}
 }
 
 @media screen and (min-width: 1330px) {
 	.insert {
+
 		padding-top: 70px;
 		width: 750px;
 		height: 300px;
 		position: relative;
-		bottom: 520px;
-		left: 410px;
+		bottom: 680px;
+		left: 570px;
 		border: solid 1px rgb(141, 140, 140);
 		outline: solid 10px rgb(51, 51, 63);
 		background-color: rgb(51, 51, 63);
