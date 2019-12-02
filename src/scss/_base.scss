@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+
 }
 
 .container-fluid {
@@ -34,7 +35,6 @@ li a {
 	text-align: center;
 	padding: 14px 16px;
 	padding-left: 200px;
-	padding-right: 100px;
 	text-decoration: none;
 }
 
@@ -61,24 +61,30 @@ li a:hover {
 	padding-bottom: 50px;
 }
 
+
 .backimg {
-	width: 1536px;
-	height: 600px;
+	background: url('../img/kuk.jpg') no-repeat;
+	background-size: cover;
+	height: 750px;
+	padding: 200px 300px 200px 400px;
 }
 
 .insert {
-	width: 500px;
-	position: relative;
-	bottom: 400px;
-	left: 500px;
+	border: solid 1px rgb(141, 140, 140);
+	outline: solid 10px rgb(51, 51, 63);
+	background-color: rgb(51, 51, 63);
+	width: 700px;
+	height: 300px;
 	border: 2px solid black;
 	border: 1px solid grey;
 	background-color: rgb(51, 51, 63);
 }
 
+
+
 .firstline {
 	font-size: 15px;
-
+	padding-top: 40px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgb(199, 199, 199);
 	text-align: center;
@@ -170,18 +176,7 @@ a.boot:focus:before {
 	transform: translate(115%, 0);
 }
 
-.backimg {
-	background: url('../img/kuk.jpg') no-repeat;
-	background-size: cover;
-	padding-top: 700px;
 
-
-	.insert {
-		border: solid 1px rgb(141, 140, 140);
-		outline: solid 10px rgb(51, 51, 63);
-		background-color: rgb(51, 51, 63);
-	}
-}
 
 .justtry {
 	display: flex;
@@ -353,46 +348,56 @@ hr {
 	margin: auto;
 }
 
-.voprosu { font-size: 25px;
+.voprosu {
+	font-size: 25px;
 	padding-top: 30px;
 	color: #6639b6;
 	font-weight: 500;
 	text-align: center;
 }
 
-.forphone { 	color: #f7b70b;
+.forphone {
+	color: #f7b70b;
 	font-size: 70px;
 }
 
-.mailphone { 	color: #f7b70b;
+.mailphone {
+	color: #f7b70b;
 	font-size: 70px;
 }
 
-.mapphone { 	color: #f7b70b;
+.mapphone {
+	color: #f7b70b;
 	font-size: 70px;
 }
 
-.phonename {color: #a7a7a7;
+.phonename {
+	color: #a7a7a7;
 	font-size: 15px;
 }
 
-.emailname {color: #a7a7a7;
+.emailname {
+	color: #a7a7a7;
 	font-size: 15px;
 }
 
-.mapname {color: #a7a7a7;
+.mapname {
+	color: #a7a7a7;
 	font-size: 15px;
 }
 
-.phonenumber { color: rgb(255, 187, 0);
+.phonenumber {
+	color: rgb(255, 187, 0);
 	font-size: 13px;
 }
 
-.emailnumber {color: rgb(255, 187, 0);
+.emailnumber {
+	color: rgb(255, 187, 0);
 	font-size: 15px;
 }
 
-.mapnumber {color: rgb(255, 187, 0);
+.mapnumber {
+	color: rgb(255, 187, 0);
 	font-size: 15px;
 }
 
@@ -402,43 +407,58 @@ hr {
 	flex-direction: space-between;
 }
 
-.phone {text-align: center;
-	 padding-right: 100px;
+.phone {
+	text-align: center;
+	padding-right: 100px;
 	padding-left: 550px;
 }
 
-.email { border-left: 2px solid  #f7b70b;;
-	border-right: 2px solid  #f7b70b;
+.email {
+	border-left: 2px solid #f7b70b;
+	;
+	border-right: 2px solid #f7b70b;
 	padding-left: 100px;
 	padding-right: 100px;
 	text-align: center;
 }
 
-.map {text-align: center;
+.map {
+	text-align: center;
 	padding-left: 100px;
 	width: 300px;
 }
 
-@media screen and (min-width: 1330px) {
-	.backimg {
-		background: url('../img/kuk.jpg') no-repeat;
-		background-size: cover;
-		padding-top: 1000px;
-		min-width: 100%;
-	}
+.owl-carousel 
+{padding-top: 30px;}
+.pickor {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 40px;
 }
 
-@media screen and (min-width: 1330px) {
-	.insert {
+.pickvit {padding-top: 20px;
+	width: 100px;
+	height: 100px;
+}
 
-		padding-top: 70px;
-		width: 750px;
-		height: 300px;
-		position: relative;
-		bottom: 680px;
-		left: 570px;
-		border: solid 1px rgb(141, 140, 140);
-		outline: solid 10px rgb(51, 51, 63);
-		background-color: rgb(51, 51, 63);
+.pickbigzz {padding-top: 30px;
+	width: 100px;
+	height: 100px;
+}
+
+.pickrubl { padding-top: 10px;
+	width: 100px;
+	height: 100px;
+}
+
+@media screen and (min-width: 980px) {
+	.vitpaloch {
+		padding-left: 350px;
+	}
+
+	.phone {
+		text-align: center;
+		padding-right: 100px;
+		padding-left: 350px;
 	}
 }
