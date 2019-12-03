@@ -69,7 +69,7 @@ li a:hover {
 	justify-content: center;
 	padding-top: 300px;
 	height: 1000px;
-	
+
 }
 
 .insert {
@@ -567,28 +567,432 @@ hr {
 		transform: rotate(0deg);
 	}
 }
+@media screen and (min-width: 1200px) {
+	.backimg {
+		display: flex;
+		justify-content: center;
+		padding-top: 400px;
+		height: 1200px;
+	}
 
-@media screen and (min-width: 980px) {
+	.insert {
+		border: solid 1px rgb(141, 140, 140);
+		outline: solid 10px rgb(51, 51, 63);
+		background-color: rgb(51, 51, 63);
+		width: 500px;
+		height: 230px;
+		border: 2px solid black;
+		border: 1px solid grey;
+		background-color: rgb(51, 51, 63);
+	}
+
+
+	.face {
+		display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+
+	}
 
 	.vitpaloch {
+		padding-left: 10px;
+	}
 
-		padding-left: 550px;
+	.vitfors {
+		width: 310px;
+	}
+
+	.hochfors {
+		width: 280px;
+		padding-left: 50px;
+	}
+
+	.contacts {
+		padding-left: 1px;
+		padding-top: 50px;
+		display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+	}
+
+	.ramka {
+		margin-top: 50px;
+		color: #f7b70b;
+		text-align: center;
+		width: 400px;
+		height: 120px;
+		border: 6px solid;
+		margin: auto;
+	}
+
+	.forkach,
+	.forgost,
+	.fortaste {
+		padding-right: 1px;
+	}
+
+	.voprosu {
+		padding-top: 1px;
 	}
 
 	.phone {
 		text-align: center;
 		padding-right: 100px;
-		padding-left: 550px;
+		padding-left: 1px;
+		width: 200px;
+	}
+
+	.email {
+		border-left: 2px solid #f7b70b;
+		border-right: 2px solid #f7b70b;
+		padding-left: 50px;
+		padding-right: 50px;
+		text-align: center;
+		width: 250px;
+	}
+
+	.map {
+		text-align: center;
+		padding-left: 100px;
+		width: 200px;
+	}
+
+	.wall {
+		height: 600px;
+	}
+
+	
+
+	.logotwo {
+		width: 310px;
+	}
+
+
+
+	.owl-carousel {
+		display: none;
+	}
+
+	.textforlogo {
+		padding-right: 1px;
+		padding-left: 10px;
+	}
+
+	.navBurger {
+		visibility: hidden;
 	}
 }
+
+@media screen and (max-width: 1140px) {
+	.contacts {
+		padding-left: 200px;
+	}
+
+	.face {
+		margin-left: 200px;
+		display: flex;
+		align-items: center;
+		flex-direction: space-between;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.backimg {
+		display: flex;
+		justify-content: center;
+		padding-top: 400px;
+		height: 1200px;
+	}
+
+	.insert {
+		border: solid 1px rgb(141, 140, 140);
+		outline: solid 10px rgb(51, 51, 63);
+		background-color: rgb(51, 51, 63);
+		width: 500px;
+		height: 230px;
+		border: 2px solid black;
+		border: 1px solid grey;
+		background-color: rgb(51, 51, 63);
+	}
+
+	
+
+	.face {
+		margin-left: 260px;
+		display: flex;
+		align-items: center;
+		flex-direction: space-between;
+
+	}
+
+	.vitpaloch {
+		padding-left: 10px;
+	}
+
+	.vitfors {
+		width: 310px;
+	}
+
+	.hochfors {
+		width: 280px;
+		padding-left: 50px;
+	}
+
+	.contacts {
+		padding-left: 270px;
+		padding-top: 50px;
+		display: flex;
+		flex-direction: space-between;
+		flex-wrap: wrap;
+	}
+
+	.ramka {
+		margin-top: 50px;
+		color: #f7b70b;
+		text-align: center;
+		width: 400px;
+		height: 120px;
+		border: 6px solid;
+		margin: auto;
+	}
+
+	.forkach,
+	.forgost,
+	.fortaste {
+		padding-right: 1px;
+	}
+
+	.voprosu {
+		padding-top: 1px;
+	}
+
+	.phone {
+		text-align: center;
+		padding-right: 100px;
+		padding-left: 1px;
+		width: 200px;
+	}
+
+	.email {
+		border-left: 2px solid #f7b70b;
+		border-right: 2px solid #f7b70b;
+		padding-left: 50px;
+		padding-right: 50px;
+		text-align: center;
+		width: 250px;
+	}
+
+	.map {
+		text-align: center;
+		padding-left: 100px;
+		width: 200px;
+	}
+
+	.wall {
+		height: 600px;
+	}
+
+	.fl,
+	.sl,
+	.thl,
+	.fol {
+		display: none;
+	}
+
+	.logotwo {
+		width: 310px;
+	}
+
+
+
+	.owl-carousel {
+		display: none;
+	}
+
+	.textforlogo {
+		padding-right: 1px;
+		padding-left: 10px;
+	}
+
+	.navBurger {
+		visibility: visible;
+	}
+}
+
+@media screen and (max-width: 1140px) {
+	.contacts {
+		padding-left: 200px;
+	}
+
+	.face {
+		margin-left: 200px;
+		display: flex;
+		align-items: center;
+		flex-direction: space-between;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.backimg {
+		display: flex;
+		justify-content: center;
+		padding-top: 400px;
+		height: 1200px;
+	}
+
+	.insert {
+		border: solid 1px rgb(141, 140, 140);
+		outline: solid 10px rgb(51, 51, 63);
+		background-color: rgb(51, 51, 63);
+		width: 500px;
+		height: 230px;
+		border: 2px solid black;
+		border: 1px solid grey;
+		background-color: rgb(51, 51, 63);
+	}
+
+	.justlogo {
+		margin: auto;
+	}
+
+	.justtry {
+		display: flex;
+		padding-left: 1px;
+		padding-top: 1px;
+		flex-direction: space-between;
+		flex-wrap: wrap;
+	}
+
+	.bagrscr {
+		height: 150px;
+	}
+
+	.firststar,
+	.sectstar,
+	.thirdstar {
+		display: none;
+
+	}
+
+	.face {
+		margin-left: 150px;
+		display: flex;
+		align-items: center;
+		flex-direction: space-between;
+
+	}
+
+	.vitpaloch {
+		padding-left: 10px;
+	}
+
+	.vitfors {
+		width: 310px;
+	}
+
+	.hochfors {
+		width: 280px;
+		padding-left: 50px;
+	}
+
+	.contacts {
+		padding-left: 150px;
+		padding-top: 50px;
+		display: flex;
+		flex-direction: space-between;
+		flex-wrap: wrap;
+	}
+
+	.ramka {
+		margin-top: 50px;
+		color: #f7b70b;
+		text-align: center;
+		width: 400px;
+		height: 120px;
+		border: 6px solid;
+		margin: auto;
+	}
+
+	.forkach,
+	.forgost,
+	.fortaste {
+		padding-right: 1px;
+	}
+
+	.voprosu {
+		padding-top: 1px;
+	}
+
+	.phone {
+		text-align: center;
+		padding-right: 100px;
+		padding-left: 1px;
+		width: 200px;
+	}
+
+	.email {
+		border-left: 2px solid #f7b70b;
+		border-right: 2px solid #f7b70b;
+		padding-left: 50px;
+		padding-right: 50px;
+		text-align: center;
+		width: 250px;
+	}
+
+	.map {
+		text-align: center;
+		padding-left: 100px;
+		width: 200px;
+	}
+
+	.wall {
+		height: 600px;
+	}
+
+	.fl,
+	.sl,
+	.thl,
+	.fol {
+		display: none;
+	}
+
+	.logotwo {
+		width: 310px;
+	}
+
+
+	.textforlogo {
+		padding-right: 1px;
+		padding-left: 10px;
+	}
+
+	.navBurger {
+		visibility: visible;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	.contacts {
+		padding-left: 100px;
+	}
+
+	.face {
+		margin-left: 100px;
+		display: flex;
+		align-items: center;
+		flex-direction: space-between;
+	}
+}
+
 
 
 @media screen and (max-width: 768px) {
 	.backimg {
 		display: flex;
-	justify-content: center;
-	padding-top: 300px;
-	height: 1000px;}
+		justify-content: center;
+		padding-top: 400px;
+		height: 1200px;
+	}
 
 	.insert {
 		border: solid 1px rgb(141, 140, 140);
@@ -729,9 +1133,9 @@ hr {
 @media screen and (max-width: 700px) {
 	.backimg {
 		display: flex;
-	justify-content: center;
-	padding-top: 300px;
-	height: 1000px;
+		justify-content: center;
+		padding-top: 300px;
+		height: 1000px;
 	}
 
 	.contacts {
@@ -768,9 +1172,9 @@ hr {
 @media screen and (max-width: 600px) {
 	.backimg {
 		display: flex;
-	justify-content: center;
-	padding-top: 300px;
-	height: 1000px;
+		justify-content: center;
+		padding-top: 300px;
+		height: 1000px;
 	}
 
 	.contacts {
@@ -820,9 +1224,9 @@ hr {
 @media screen and (max-width: 575px) {
 	.backimg {
 		display: flex;
-	justify-content: center;
-	padding-top: 300px;
-	height: 1000px;
+		justify-content: center;
+		padding-top: 300px;
+		height: 1000px;
 	}
 
 	.insert {
@@ -860,7 +1264,7 @@ hr {
 	}
 
 	.face {
-		margin-left: 130px;
+		margin-left: 70px;
 		display: flex;
 		align-items: center;
 		flex-direction: space-between;
@@ -892,7 +1296,7 @@ hr {
 		margin-top: 50px;
 		color: #f7b70b;
 		text-align: center;
-		width: 400px;
+		width: 350px;
 		height: 120px;
 		border: 6px solid;
 		margin: auto;
@@ -910,21 +1314,21 @@ hr {
 
 	.phone {
 
-		padding-left: 100px;
+		padding-left: 120px;
 	}
 
 	.email {
 		width: 320px;
-		padding-left: 90px;
+		padding-left: 1px;
 		border: none;
 	}
 
 	.map {
-		padding-left: 25px;
+		padding-left: 105px;
 	}
 
 	.wall {
-		height: 900px;
+		height: 1000px;
 	}
 
 	.fl,
@@ -957,13 +1361,13 @@ hr {
 @media screen and (max-width: 450px) {
 	.backimg {
 		display: flex;
-	justify-content: center;
-	padding-top: 300px;
-	height: 1000px;
+		justify-content: center;
+		padding-top: 300px;
+		height: 1000px;
 	}
 
 	.contacts {
-		padding-left: 100px;
+		padding-left: 50px;
 	}
 
 	.face {
@@ -971,65 +1375,65 @@ hr {
 	}
 
 	.phone {
-		padding-left: 50px;
+		padding-left: 120px;
 	}
 
 	.email {
-		padding-left: 50px;
+		padding-left: 1px;
 	}
 
 	.map {
-		padding-right: 70px;
+		padding-right: 5px;
+	}
+
+	.textfornumber {
+		width: 100px;
 	}
 }
 
 @media screen and (max-width: 400px) {
 	.backimg {
 		display: flex;
-	justify-content: center;
-	padding-top: 300px;
-	height: 1000px;
-	}
-}
-
-@media screen and (max-width: 370px) {
-	.backimg {
+		justify-content: center;
+		padding-top: 300px;
 		height: 1000px;
-		padding: 120px 80px 80px 40px;
-		margin: auto;
-	}
-
-	.ramka {
-		width: 370px;
-	}
-
-	.contacts {
-		padding-left: 70px;
-	}
-}
-
-@media screen and (max-width: 345px) {
-	.backimg {
-		display: flex;
-	justify-content: center;
-	padding-top: 300px;
-	height: 1000px;
-	}
-
-	.ramka {
-		width: 345px;
-	}
-
-	.contacts {
-		padding-left: 50px;
 	}
 
 	.face {
-		margin-left: 20px;
+		margin-left: 25px;
 	}
 
 	.bagrscr {
-		height: 180px;
+		height: 170px;
+	}
+
+}
+
+@media screen and (max-width: 350px) {
+	.backimg {
+		display: flex;
+		justify-content: center;
+		padding-top: 200px;
+		height: 700px;
+	}
+
+
+	.ramka {
+		margin-top: 50px;
+		color: #f7b70b;
+		text-align: center;
+		width: 320px;
+		height: 120px;
+		border: 6px solid;
+		margin: auto;
+	}
+
+	.contacts {
+		padding-left: 25px;
+	}
+
+	.face {
+		margin-left: 1px;
 	}
 }
 
@@ -1038,9 +1442,9 @@ hr {
 @media screen and (max-width: 320px) {
 	.backimg {
 		display: flex;
-	justify-content: center;
-	padding-top: 200px;
-	height: 700px;
+		justify-content: center;
+		padding-top: 200px;
+		height: 700px;
 	}
 
 	.insert {
@@ -1082,7 +1486,7 @@ hr {
 	}
 
 	.vitpaloch {
-		padding-left: 10px;
+		padding-left: 1px;
 	}
 
 	.vitfors {
