@@ -37,6 +37,10 @@ li a {
 	padding-left: 200px;
 	text-decoration: none;
 }
+/*
+.fl,.sl,.thl{width: 100px;}
+.fol{padding-right: 300px;}
+*/
 
 .nav {
 
@@ -44,10 +48,11 @@ li a {
 	width: 100%;
 	display: flex;
 	padding-top: 10px;
-	justify-content: space-between;
+	justify-content: center;
 	flex: row;
 	position: sticky;
 }
+
 
 li a:hover {
 	width: 100%;
@@ -566,7 +571,13 @@ hr {
 		left: 0;
 		transform: rotate(0deg);
 	}
+
 }
+@media screen and (max-width: 1320px) {
+	.fl,.sl,.thl{width: 50px;}
+	.fol{padding-right: 100px;}
+}
+
 @media screen and (min-width: 1200px) {
 	.backimg {
 		display: flex;
@@ -579,8 +590,8 @@ hr {
 		border: solid 1px rgb(141, 140, 140);
 		outline: solid 10px rgb(51, 51, 63);
 		background-color: rgb(51, 51, 63);
-		width: 500px;
-		height: 230px;
+		width: 700px;
+    height: 251px;
 		border: 2px solid black;
 		border: 1px solid grey;
 		background-color: rgb(51, 51, 63);
@@ -598,14 +609,7 @@ hr {
 		padding-left: 10px;
 	}
 
-	.vitfors {
-		width: 310px;
-	}
-
-	.hochfors {
-		width: 280px;
-		padding-left: 50px;
-	}
+	
 
 	.contacts {
 		padding-left: 1px;
@@ -660,7 +664,7 @@ hr {
 	.wall {
 		height: 600px;
 	}
-
+	.malito:link { color:Red}
 	
 
 	.logotwo {
@@ -694,6 +698,9 @@ hr {
 		align-items: center;
 		flex-direction: space-between;
 	}
+	.navBurger {
+		visibility: hidden;
+	}
 }
 
 @media screen and (max-width: 1199px) {
@@ -703,7 +710,9 @@ hr {
 		padding-top: 400px;
 		height: 1200px;
 	}
-
+.navBurger {
+		visibility: hidden;
+	}
 	.insert {
 		border: solid 1px rgb(141, 140, 140);
 		outline: solid 10px rgb(51, 51, 63);
@@ -792,12 +801,6 @@ hr {
 		height: 600px;
 	}
 
-	.fl,
-	.sl,
-	.thl,
-	.fol {
-		display: none;
-	}
 
 	.logotwo {
 		width: 310px;
@@ -815,7 +818,7 @@ hr {
 	}
 
 	.navBurger {
-		visibility: visible;
+		visibility: hidden;
 	}
 }
 
@@ -823,12 +826,21 @@ hr {
 	.contacts {
 		padding-left: 200px;
 	}
+	.fl,
+	.sl,
+	.thl,
+	.fol {
+		display: none;
+	}
 
 	.face {
 		margin-left: 200px;
 		display: flex;
 		align-items: center;
 		flex-direction: space-between;
+	}
+	.navBurger {
+		visibility:visible;
 	}
 }
 
@@ -967,13 +979,16 @@ hr {
 	}
 
 	.navBurger {
-		visibility: visible;
+		visibility: hidden;
 	}
 }
 
 @media screen and (max-width: 860px) {
 	.contacts {
 		padding-left: 100px;
+		display: flex;
+		flex-direction: space-between;
+		flex-wrap: wrap;
 	}
 
 	.face {
@@ -981,6 +996,9 @@ hr {
 		display: flex;
 		align-items: center;
 		flex-direction: space-between;
+	}
+	.navBurger {
+		visibility: visible;
 	}
 }
 
@@ -1368,6 +1386,9 @@ hr {
 
 	.contacts {
 		padding-left: 50px;
+		display: flex;
+		flex-direction: space-between;
+		flex-wrap: wrap;
 	}
 
 	.face {
@@ -1406,7 +1427,24 @@ hr {
 	.bagrscr {
 		height: 170px;
 	}
-
+	.overlay {
+		padding-right: 40px;
+		position: fixed;
+		background: #2a3140;
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 70%;
+		opacity: 0;
+		-webkit-transform-origin: right top;
+		transform-origin: right top;
+		-webkit-transform: scale(0);
+		transform: scale(0);
+		visibility: hidden;
+		-webkit-transition: all .4s ease-in-out;
+		transition: all .4s ease-in-out;
+		overflow: hidden;
+	}
 }
 
 @media screen and (max-width: 350px) {
@@ -1571,6 +1609,23 @@ hr {
 
 	.navBurger {
 		visibility: visible;
+	}
+	.overlay {
+		position: fixed;
+		background: #2a3140;
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 70%;
+		opacity: 0;
+		-webkit-transform-origin: right top;
+		transform-origin: right top;
+		-webkit-transform: scale(0);
+		transform: scale(0);
+		visibility: hidden;
+		-webkit-transition: all .4s ease-in-out;
+		transition: all .4s ease-in-out;
+		overflow: hidden;
 	}
 
 }
