@@ -17,26 +17,28 @@
 
   <!--MENU-->
   <div class="container-fluid">
-    <div class="nav" id="fixblock">
-      <ul class="ull">
-        <img class="logo" src='../img/logo.jpg' alt="logo">
-        <div class="overlay">
-          <nav class="overlayMenu">
-            <ul role="menu">
-              <li><a href="#yakor_osob" role="menuitem">Особенности</a></li>
-              <li><a href="#yakor_asort" role="menuitem">Ассортимент</a></li>
-              <li><a href="#yakor_partn" role="menuitem">Партнеры</a></li>
-              <li><a href="#yakor_contacts" role="menuitem">Контакты</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="navBurger" role="navigation" id="navToggle"></div>
-        <li class="fl"><a href="#yakor_osob">Особенности</a></li>
-        <li class="sl"><a href="#yakor_asort">Ассортимент</a></li>
-        <li class="thl"><a href="#yakor_partn">Партнеры</a></li>
-        <li class="fol"><a class="active" href="#yakor_contacts">Контакты</a></li>
-      </ul>
-    </div>
+    <nav>
+      <div class="nav" id="fixblock">
+        <ul class="ull">
+          <img class="logo" src='../img/logo.jpg' alt="logo">
+          <div class="overlay">
+            <nav class="overlayMenu">
+              <ul role="menu">
+                <li><a href="#yakor_osob" role="menuitem">Особенности</a></li>
+                <li><a href="#yakor_asort" role="menuitem">Ассортимент</a></li>
+                <li><a href="#yakor_partn" role="menuitem">Партнеры</a></li>
+                <li><a href="#yakor_contacts" role="menuitem">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="navBurger" role="navigation" id="navToggle"></div>
+          <li class="fl"><a href="#yakor_osob">Особенности</a></li>
+          <li class="sl"><a href="#yakor_asort">Ассортимент</a></li>
+          <li class="thl"><a href="#yakor_partn">Партнеры</a></li>
+          <li class="fol"><a class="active" href="#yakor_contacts">Контакты</a></li>
+        </ul>
+      </div>
+    </nav>
   </div>
 
 
@@ -44,19 +46,21 @@
 
   <div class="container-fluid">
     <div class="backimg">
-      <div class="insert">
+      <div class="insert wow fadeInLeft">
         <h1 class="firstline">КУКУРУЗНЫЕ ПАЛОЧКИ</h1>
         <h2 class="secondline">"ХОЧУ И ЕМ"</h2>
         <h3 class="thirdline">"Те самые" палочки, что переносят нас прямиком в далёкое-далёкое детство...</h3>
-
+        <a href="#yakor_osob" class="glo">Подробнее</a>
       </div>
     </div>
   </div>
 
+
   <!--Features-->
+
   <div class="container-fluid">
     <div class="justtry" id="yakor_osob">
-      <div class="justlogo">
+      <div class="justlogo wow fadeInLeft">
         <img class="logotwo" src='../img/seclogo.jpg' alt="seclogo">
       </div>
       <div class="textforlogo">
@@ -115,12 +119,12 @@
   <!--Offer-->
 
   <div class="container-fluid">
-    <div class="bagrscr" id="yakor_asort">
+    <div class="bagrscr wow fadeInUp" id="yakor_asort">
       <h1 class="offer">А что же мы предлагаем?</h1>
       <h2 class="foroffer">Ниже представлен ассортимент предлагаемой нами продукции</h2>
     </div>
     <div class="container-fluid">
-      <div class="face">
+      <div class="face wow lightSpeedIn">
         <div class="vitpaloch">
           <img class="vitfors" src='../img/vitpal.jpg' alt="vitpal">
         </div>
@@ -138,7 +142,7 @@
     <hr />
 
     <!--Owl-->
-    <div class="forowlcor">
+    <div class="forowlcor wow lightSpeedIn">
       <div class="owl-carousel owl-theme">
         <div class="pickor">
           <img src='../img/korona.jpg' alt="hochpal">
@@ -157,7 +161,7 @@
     <!--Footer-->
 
     <div class="container-fluid">
-      <div class="wall" id="yakor_contacts">
+      <div class="wall wow fadeInUp" id="yakor_contacts">
         <div class="ramka">
           <div class="forvoprosu">
             <p class="voprosu">Остались вопросы? Позвоните, или напишите нам!</p>
@@ -172,19 +176,18 @@
               <p>ТЕЛЕФОН</p>
             </div>
             <div class="phonenumber">
-              <p>(017) 226-27-57 (56)</p>
+              <a class="teltel" href="tel:+375172262757"> (017) 226-27-57 (56) </a>
             </div>
           </div>
           <div class="email">
             <div class="emailepic">
               <p class="mailphone">&#x2655;</p>
             </div>
-            <div class="emailname" >
+            <div class="emailname">
               <p>EMAIL</p>
             </div>
             <div class="emailnumber">
               <a class="malito" href="mailto:info@yoursite.com">snecmash@yandex.ru</a>
-              
             </div>
           </div>
           <div class="map">
@@ -199,13 +202,14 @@
                 дом 52, пом. 1, каб. 28</p>
             </div>
           </div>
+          <div id = "toTop" >&#9650;</div>
         </div>
       </div>
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  <script src=" https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
@@ -215,6 +219,9 @@
   </script>
   <script src="js/vendor.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 
 </body>
 
